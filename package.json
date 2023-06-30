@@ -1,0 +1,21 @@
+{
+  "name": "cumple-marina",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --emptyOutDir",
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0",
+    "sass": "^1.63.6",
+    "vite": "^4.3.9"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.0",
+    "sweetalert2": "^11.7.12"
+  }
+}

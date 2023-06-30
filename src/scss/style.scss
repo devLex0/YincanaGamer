@@ -1,0 +1,21 @@
+$primary: #d21496; 
+$success: #730e53;
+$danger: #ff32be;
+
+$theme-colors: (
+  "primary": $primary,
+  "success": $success,
+  "danger" : $danger
+);
+
+#datos {
+  margin-top: 5%;
+
+}
+
+#card {
+  padding-bottom: 5em;
+} 
+
+
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
