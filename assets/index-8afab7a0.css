@@ -3,6 +3,21 @@
   margin-top: 5%;
 }
 
+#gato {
+  z-index: 10;
+  position: absolute;
+  transform: rotate(180deg);
+  top: -150px;
+  transform: scaleY(-1);
+  transition: transform 0.5s;
+  margin-left: 150px;
+}
+
+#gato:hover {
+  transition: transform 0.5s;
+  transform: scaleY(-1) translateY(-180px) rotate(-180deg);
+}
+
 #card {
   padding-bottom: 5em;
 }

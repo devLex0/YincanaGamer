@@ -53,6 +53,10 @@ const header = {
             </div>
           </nav>
     </div>
+
+    <div id="gato">
+      <img src="./resources/cat.png" alt="cat-o" width="300px" class="">
+    </div>
     `
 };
 var commonjsGlobal = typeof globalThis !== "undefined" ? globalThis : typeof window !== "undefined" ? window : typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : {};
@@ -2799,10 +2803,10 @@ const home = {
         }).then(() => {
           let card1 = `
                     <div class="card" style="width: 18rem;">
-                        <img src="./resources/diablo.png" class="card-img-top" alt="...">
+                        <img src="./resources/diablo.png" class="card-img-top" alt="daiblos 4">
                         <div class="card-body">
                             <h5 class="card-title text-center">DIABLO IV</h5>
-                            <p class="card-text">Vale por 2 copias del diablo 4 (1 para ti y 1 para mí) para viciarla máximo</p>
+                            <p class="card-text">Vale por 2 copias del diablo 4 (1 para ti y 1 para mí) para viciarla máximo.</p>
                             <a href="https://files.fm/u/m68d9d7r5" class="btn btn-primary">Descargar vale</a>
                         </div>
                     </div>
@@ -2830,10 +2834,10 @@ const home = {
         }).then(() => {
           let card2 = `
                     <div class="card" style="width: 18rem;">
-                        <img src="./resources/crocs.png" class="card-img-top" alt="...">
+                        <img src="./resources/crocs.png" class="card-img-top" alt="sapatos">
                         <div class="card-body">
                             <h5 class="card-title text-center">ZAPATOS</h5>
-                            <p class="card-text">Vale por 1 par de zapatos ya sean crocs, vans o el que quieras, ¡sin límite alguno de precio!</p>
+                            <p class="card-text">Vale por 1 par de zapatos ya sean crocs, vans o las que quieras, ¡sin límite alguno de precio!</p>
                             <a href="#" class="btn btn-primary">Descargar vale</a>
                         </div>
                     </div>
@@ -2861,10 +2865,10 @@ const home = {
         }).then(() => {
           let card3 = `
                     <div class="card" style="width: 18rem;">
-                        <img src="./resources/shushi.jpg" class="card-img-top" alt="...">
+                        <img src="./resources/shushi.jpg" class="card-img-top" alt="cenita en shushi">
                         <div class="card-body">
                             <h5 class="card-title text-center">CENA</h5>
-                            <p class="card-text">Vale por 1 cena en el restaurante degustación Koy Shunka(1 estrella Michelin)</p>
+                            <p class="card-text">Vale por 1 cena en el restaurante degustación Koy Shunka(1 estrella Michelin).</p>
                             <a href="#" class="btn btn-primary">Descargar vale</a>
                         </div>
                     </div>
@@ -2892,10 +2896,10 @@ const home = {
         }).then(() => {
           let card4 = `
                     <div class="card" style="width: 18rem;">
-                        <img src="" class="card-img-top" alt="...">
+                        <img src="./resources/valorant.jpg" class="card-img-top" alt="armas del valorant">
                         <div class="card-body">
                             <h5 class="card-title">NOCHE FRIKI</h5>
-                            <p class="card-text">Vale 1 pase de batalla, 1 arma del Valorant y 5g de la que quieras</p>
+                            <p class="card-text">Vale por 1 pase de batalla y 1 skin del Valorant y 5g de la que quieras.</p>
                             <a href="#" class="btn btn-primary">Descargar vale</a>
                         </div>
                     </div>
@@ -2923,10 +2927,10 @@ const home = {
         }).then(() => {
           let card5 = `
                     <div class="card" style="width: 18rem;">
-                        <img src="..." class="card-img-top" alt="...">
+                        <img src="./resources/madrid.jpg" class="card-img-top" alt="madrid">
                         <div class="card-body">
-                            <h5 class="card-title">DIABLO IV</h5>
-                            <p class="card-text">Vale por 2 copias del diablo 4 (1 para ti y 1 para mí)</p>
+                            <h5 class="card-title">¡MADRID!</h5>
+                            <p class="card-text">Vale por 1 viaje a MADRID (hotel y transporte pagado).</p>
                             <a href="#" class="btn btn-primary">Descargar vale</a>
                         </div>
                     </div>
